@@ -5,6 +5,9 @@ Jim Brower -
 bulldoglowell@gmail.com
 */
 #include "application.h"
+#ifdef PLATFORM_ID
+#include "i2c_hal.h"
+#endif
 
 #ifndef LiquidCrystal_I2C_Spark_h
 #define LiquidCrystal_I2C_Spark_h
